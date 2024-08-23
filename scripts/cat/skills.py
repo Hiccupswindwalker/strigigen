@@ -13,9 +13,9 @@ class SkillPath(Enum):
         "unusually strong fighter",
     )
     RUNNER = (
-        "never sits still",
-        "fast runner",
-        "incredible runner",
+        "never stands still",
+        "fast flyer",
+        "incredible flyer",
         "fast as the wind",
     )
     CLIMBER = (
@@ -26,9 +26,9 @@ class SkillPath(Enum):
     )
     SWIMMER = (
         "splashes in puddles",
-        "good swimmer",
-        "talented swimmer",
-        "fish-like swimmer",
+        "good diver",
+        "talented diver",
+        "fish-like diver",
     )
     SPEAKER = (
         "confident with words",
@@ -52,9 +52,9 @@ class SkillPath(Enum):
     SENSE = ("oddly observant", "natural intuition", "keen eye", "unnatural senses")
     KIT = (
         "active imagination",
-        "good kitsitter",
-        "great kitsitter",
-        "beloved kitsitter",
+        "good owlet-sitter",
+        "great owlet-sitter",
+        "beloved owlet-sitter",
     )
     STORY = (
         "lover of stories",
@@ -68,7 +68,7 @@ class SkillPath(Enum):
         "lore keeper",
         "lore master",
     )
-    CAMP = ("picky nest builder", "steady paws", "den builder", "camp keeper")
+    CAMP = ("picky nest builder", "steady claws", "den builder", "camp keeper")
     HEALER = ("interested in herbs", "good healer", "great healer", "fantastic healer")
     STAR = (
         "curious about StarClan",
@@ -97,6 +97,7 @@ class SkillPath(Enum):
         "prophet",
     )
     GHOST = ("morbid curiosity", "ghost sense", "ghost sight", "ghost speaker")
+    COLLIER = ("mesmerized by flames", "always covered in ashes", "wildfire seeker", "coal diver")
 
     @staticmethod
     def get_random(exclude: list = ()):
@@ -106,6 +107,7 @@ class SkillPath(Enum):
             i
             for i in [
                 SkillPath.GHOST,
+                SkillPath.COLLIER,
                 SkillPath.PROPHET,
                 SkillPath.CLAIRVOYANT,
                 SkillPath.DREAM,
@@ -173,6 +175,7 @@ class Skill:
         SkillPath.PROPHET: "prophesying",
         SkillPath.GHOST: "ghosts",
         SkillPath.DARK: "dark forest",
+        SkillPath.COLLIER: "fire seeking",
     }
 
     def __init__(self, path: SkillPath, points: int = 0, interest_only: bool = False):
@@ -322,6 +325,7 @@ class CatSkills:
         SkillPath.PROPHET: SkillTypeFlag.SUPERNATURAL,
         SkillPath.GHOST: SkillTypeFlag.SUPERNATURAL,
         SkillPath.DARK: SkillTypeFlag.SUPERNATURAL,
+        SkillPath.COLLIER: SkillTypeFlag.SUPERNATURAL | SkillTypeFlag.AGILE,
     }
 
     # pylint: enable=unsupported-binary-operation

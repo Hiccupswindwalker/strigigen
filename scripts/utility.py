@@ -2459,17 +2459,58 @@ def generate_sprite(
             and game.config["cat_sprites"]["sick_sprites"]
     ):
         if age in ["kitten", "adolescent"]:
-            cat_sprite = str(19)
+            if cat.pelt.length == "smallhorned":
+                cat_sprite = str(70)
+            if cat.pelt.length == "small":
+                cat_sprite = str(70)
+            if cat.pelt.length == "mediumhorned":
+                cat_sprite = str(67)
+            if cat.pelt.length == "medium":
+                cat_sprite = str(67)
+            if cat.pelt.length == "largehorned":
+                cat_sprite = str(64)
+            if cat.pelt.length == "large":
+                cat_sprite = str(64)
         else:
-            cat_sprite = str(18)
+            if cat.pelt.length == "smallhorned":
+                cat_sprite = str(69)
+            if cat.pelt.length == "small":
+                cat_sprite = str(69)
+            if cat.pelt.length == "mediumhorned":
+                cat_sprite = str(66)
+            if cat.pelt.length == "medium":
+                cat_sprite = str(66)
+            if cat.pelt.length == "largehorned":
+                cat_sprite = str(63)
+            if cat.pelt.length == "large":
+                cat_sprite = str(63)
     elif cat.pelt.paralyzed and age != "newborn":
         if age in ["kitten", "adolescent"]:
-            cat_sprite = str(17)
+            if cat.pelt.length == "smallhorned":
+                cat_sprite = str(62)
+            if cat.pelt.length == "small":
+                cat_sprite = str(62)
+            if cat.pelt.length == "mediumhorned":
+                cat_sprite = str(59)
+            if cat.pelt.length == "medium":
+                cat_sprite = str(59)
+            if cat.pelt.length == "largehorned":
+                cat_sprite = str(56)
+            if cat.pelt.length == "large":
+                cat_sprite = str(56)
         else:
-            if cat.pelt.length == "long":
-                cat_sprite = str(16)
-            else:
-                cat_sprite = str(15)
+            if cat.pelt.length == "smallhorned":
+                cat_sprite = str(61)
+            if cat.pelt.length == "small":
+                cat_sprite = str(60)
+            if cat.pelt.length == "mediumhorned":
+                cat_sprite = str(58)
+            if cat.pelt.length == "medium":
+                cat_sprite = str(57)
+            if cat.pelt.length == "largehorned":
+                cat_sprite = str(55)
+            if cat.pelt.length == "large":
+                cat_sprite = str(54)
     else:
         if age == "elder" and not game.config["fun"]["all_cats_are_newborn"]:
             age = "senior"

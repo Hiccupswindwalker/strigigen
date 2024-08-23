@@ -2,17 +2,17 @@
     {
         "id": "warrior_gen_alive_kits",
         "thoughts": [
-            "Is watching over the kits",
-            "Begrudgingly allows kits to play with {PRONOUN/m_c/poss} tail",
-            "Goes to help a kit that stumbled over their own paws",
-            "Was roped into playing mossball with the kits",
-            "Somehow has a gaggle of kits following {PRONOUN/m_c/object}",
-            "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being a kit",
+            "Is watching over the owlets",
+            "Begrudgingly allows owlets to play with {PRONOUN/m_c/poss} feathers",
+            "Goes to help an owlet that stumbled over their own feet",
+            "Was roped into playing mossball with the owlets",
+            "Somehow has a flock of owlets following {PRONOUN/m_c/object}",
+            "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being an owlet",
             "Somehow got roped up in watching r_c for the day",
             "Theatrically dies after r_c slays {PRONOUN/m_c/object}",
             "Has to pretend to be a captured warrior for r_c's games",
             "Is pretending to be a big, evil warrior for r_c",
-            "Gave a badger ride to r_c, and is now begged by more kittens to do the same"
+            "Gave a badger ride to r_c, and is now begged by more owlets to do the same"
         ],
         "random_status_constraint": [
             "kitten"
@@ -24,7 +24,7 @@
     {
         "id": "warrior_formerly_a_loner_alive_kits",
         "thoughts": [
-            "Is telling the kits about {PRONOUN/m_c/poss} days as a loner",
+            "Is telling the owlets about {PRONOUN/m_c/poss} days as a loner",
             "Is being begged by r_c to tell {PRONOUN/r_c/object} about what being a loner was like"
         ],
         "main_backstory_constraint": [
@@ -45,7 +45,7 @@
     {
         "id": "warrior_formerly_a_rogue_alive_kits",
         "thoughts": [
-            "Is telling the kits about {PRONOUN/m_c/poss} days as a rogue",
+            "Is telling the owlets about {PRONOUN/m_c/poss} days as a rogue",
             "Is being begged by r_c to tell {PRONOUN/r_c/object} more what being a rogue was like"
         ],
         "main_backstory_constraint": [
@@ -69,10 +69,10 @@
             "Wonders if r_c would have been {PRONOUN/m_c/poss} apprentice once {PRONOUN/r_c/subject} {VERB/r_c/were/was} old enough",
             "Ponders what r_c's favorite game would have been",
             "Is listening to r_c's favorite games from {PRONOUN/m_c/poss} friends",
-            "Wonders what type of apprentice r_c would've been",
-            "Listens to other kits sadly talk about r_c's death",
+            "wonders what type of apprentice r_c would've been",
+            "Listens to other owlets sadly talk about r_c's death",
             "Sadly remembers when r_c would play games with {PRONOUN/m_c/object}",
-            "Hopes the kits in StarClan are safe"
+            "Hopes the owlets in StarClan are safe"
         ],
         "random_status_constraint": [
             "kitten"
@@ -100,10 +100,10 @@
         "thoughts": [
             "Excitedly plays games with r_c, letting {PRONOUN/r_c/object} win every time",
             "Is woken up by r_c jumping on {PRONOUN/m_c/object}, begging for something",
-            "Grooms r_c clean and makes {PRONOUN/r_c/object} presentable",
+            "Preens r_c clean and makes {PRONOUN/r_c/object} presentable",
             "Carries r_c to the nursery because {PRONOUN/r_c/subject} fell asleep",
             "Is scolding r_c for almost being reckless",
-            "Hopes {PRONOUN/m_c/poss} kits arent getting into too much trouble",
+            "Hopes {PRONOUN/m_c/poss} owlets arent getting into too much trouble",
             "Is in awe with how fast r_c is growing"
         ],
         "relationship_constraint": [
@@ -140,7 +140,7 @@
     {
         "id": "gen_older_warrior",
         "thoughts": [
-            "Tries to set a good example for younger cats"
+            "Tries to set a good example for younger owls"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -153,8 +153,8 @@
     {
         "id": "warrior_gen_medicine_cat",
         "thoughts": [
-            "Plans to visit the medicine cat",
-            "Is helping to escort the medicine cat to gather herbs"
+            "Plans to visit the medicine owl",
+            "Is helping to escort the medicine owl to gather herbs"
         ],
         "random_status_constraint": [
             "medicine cat"
@@ -183,39 +183,40 @@
             "Forest"
         ],
         "thoughts": [
-            "Wishes {PRONOUN/m_c/poss} pelt would turn silver like the moon just like the wolves"
+            "Wishes {PRONOUN/m_c/poss} feathers would turn silver like the moon just like the wolves"
         ],
         "main_trait_constraint": [
             "ambitious"
         ]
     },
     {
-        "id": "adventurous_warrior",
-        "thoughts": [
-            "Wants to explore far beyond the borders of {PRONOUN/m_c/poss} territory...",
-            "Wonders what lies beyond the distant horizon...",
-            "Is dreaming of one day discovering something new and exciting!",
-            "Is itching to run, run, run!",
-            "Wants to climb the tallest tree in the territory!",
-            "Is itching for some excitement around camp",
-            "Is considering bending the rules a bit... just this once",
-            "Is showing off a trinket {PRONOUN/m_c/subject} found while exploring",
-            "Is daydreaming about how much there is to see out in the world!",
-            "Is itching to explore the land beyond {PRONOUN/m_c/poss} Clan's territory",
-            "Wants to go on a journey",
-            "Wishes {PRONOUN/m_c/poss} leader would choose {PRONOUN/m_c/object} to go on a quest",
-            "Disappears for the whole day to explore the territory",
-            "Promises {PRONOUN/m_c/poss} Clanmates {PRONOUN/m_c/subject} won't do anything dangerous while out"
-        ],
-        "main_trait_constraint": [
-            "adventurous"
-        ]
+    "id": "adventurous_warrior",
+    "thoughts": [
+        "Wants to explore far beyond the borders of {PRONOUN/m_c/poss} territory...",
+        "Wonders what lays beyond the distant horizon...",
+        "Is dreaming of one day discovering something new and exciting!",
+        "Is itching to fly, fly, fly!",
+        "Wants to find the tallest tree in the territory!",
+        "Is itching for some excitement around camp",
+        "Is considering bending the rules a bit... just this once",
+        "Is showing off a trinket {PRONOUN/m_c/subject} found while exploring",
+        "Is daydreaming about how much there is to see out in the world!",
+        "Is itching to explore the land beyond {PRONOUN/m_c/poss} Clan's territory",
+        "Wants to go on a journey",
+        "Wishes {PRONOUN/m_c/poss} leader would choose {PRONOUN/m_c/object} to go on a quest",
+        "Disappeared the whole day to explore the territory",
+        "Promises {PRONOUN/m_c/poss} Clanmates {PRONOUN/m_c/subject} won't do anything dangerous while out"
+    ],
+    "main_trait_constraint": [
+        "adventurous"
+    ]
+
     },
     {
         "id": "adventurous_warrior_to_alive_kits",
         "thoughts": [
-            "Involves the kits in a game of make-believe about traveling through a strange land",
-            "Encourages the kits to explore as much as possible"
+            "Involves the owlets in a game of make believe about traveling through a strange land",
+            "Encourages the owlets to explore as much as possible"
         ],
         "random_status_constraint": [
             "kitten"

@@ -79,7 +79,7 @@ def bs_blurb_text(cat):
     backstory_text = BACKSTORIES["backstories"][backstory]
 
     if cat.status in ["kittypet", "loner", "rogue", "former Clancat"]:
-        return f"This cat is a {cat.status} and currently resides outside of the Clans."
+        return f"This owl is a {cat.status} and currently resides outside of the Clans."
 
     return backstory_text
 
@@ -1199,7 +1199,7 @@ class ProfileScreen(Screens):
         """Opens the User Notes portion of the History Tab"""
         self.load_user_notes()
         if self.user_notes is None:
-            self.user_notes = "Click the check mark to enter notes about your cat!"
+            self.user_notes = "Click the check mark to enter notes about your owl!"
 
         self.notes_entry = pygame_gui.elements.UITextEntryBox(
             scale(pygame.Rect((200, 946), (1200, 298))),

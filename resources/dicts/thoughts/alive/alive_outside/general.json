@@ -19,17 +19,17 @@
             "Wonders if StarClan is still watching over {PRONOUN/m_c/object}",
             "Wonders if c_n has declared {PRONOUN/m_c/object} dead yet",
             "Wonders if the Clan is searching for {PRONOUN/m_c/object}",
-            "Thanks a loner who gave {PRONOUN/m_c/object} shelter",
+            "Thanks an owl who gave {PRONOUN/m_c/object} shelter",
             "Is shaken by a nightmare that {PRONOUN/m_c/subject} couldn't wake up from",
             "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} back in camp",
-            "Thinks {PRONOUN/m_c/subject} might've been visited by a StarClan cat",
-            "Thinks {PRONOUN/m_c/subject} caught scent of a c_n patrol",
+            "Thinks {PRONOUN/m_c/subject} might've been visited by a StarClan owl",
+            "Thinks {PRONOUN/m_c/subject} caught whispers from a c_n patrol",
             "Wonders if {PRONOUN/m_c/subject} can maintain this life",
             "Wishes {PRONOUN/m_c/subject} {VERB/m_c/weren't/wasn't} as used to this as {PRONOUN/m_c/subject} {VERB/m_c/are/is}",
             "Got even more lost than {PRONOUN/m_c/subject} {VERB/m_c/were/was} before",
             "Is scared that {PRONOUN/m_c/subject} will never be found",
-            "Heard a rumor about a large group of cats in the area",
-            "Is considering becoming a kittypet",
+            "Heard a rumor about a large group of owls in the area",
+            "Is considering becoming a captive owl",
             "Feels abandoned by StarClan",
             "Is starting to get used to living alone",
             "Feels homesick",
@@ -42,9 +42,9 @@
             "Hesitantly made a deal with a rogue",
             "Is wandering through the forest",
             "Is trying to get back to c_n as soon as possible",
-            "Stops to sniff a patch of grass",
+            "Stops to watch a patch of grass",
             "Watches the clouds roll by",
-            "Bristles at the alert call of a bird",
+            "Bristles at the alert call of a cat",
             "Is sneezing"
         ],
         "main_status_constraint": [
@@ -106,7 +106,7 @@
     {
         "id": "lost_cats_with_kits",
         "thoughts": [
-            "Sends a prayer to the stars for the safety of {PRONOUN/m_c/poss} kits"
+            "Sends a prayer to the stars for the safety of {PRONOUN/m_c/poss} owlets"
         ],
         "relationship_constraint": [
             "parent/child"
@@ -147,7 +147,7 @@
     {
         "id": "lost_thoughts_to_apprentices",
         "thoughts": [
-            "Wonders who is mentoring the c_n kits that must be apprentices by now"
+            "Wonders who is mentoring the c_n owlets that must be apprentices by now"
         ],
         "main_status_constraint": [
             "warrior", 

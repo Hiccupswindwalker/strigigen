@@ -957,33 +957,11 @@ class Cat:
         colour = str(self.pelt.eye_colour).lower()
         colour2 = str(self.pelt.eye_colour2).lower()
 
-        if colour == "palegreen":
-            colour = "pale green"
-        elif colour == "darkblue":
-            colour = "dark blue"
-        elif colour == "paleblue":
-            colour = "pale blue"
-        elif colour == "paleyellow":
-            colour = "pale yellow"
-        elif colour == "heatherblue":
-            colour = "heather blue"
-        elif colour == "blue2":
-            colour = "blue"
-        elif colour == "sunlitice":
+        if colour == "sunlitice":
             colour = "sunlit ice"
         elif colour == "greenyellow":
             colour = "green-yellow"
         if self.pelt.eye_colour2:
-            if colour2 == "palegreen":
-                colour2 = "pale green"
-            if colour2 == "darkblue":
-                colour2 = "dark blue"
-            if colour2 == "paleblue":
-                colour2 = "pale blue"
-            if colour2 == "paleyellow":
-                colour2 = "pale yellow"
-            if colour2 == "heatherblue":
-                colour2 = "heather blue"
             if colour2 == "sunlitice":
                 colour2 = "sunlit ice"
             if colour2 == "greenyellow":
@@ -3365,6 +3343,7 @@ class Cat:
                 "pelt_name": self.pelt.name,
                 "pelt_color": self.pelt.colour,
                 "pelt_length": self.pelt.length,
+                "sprite_newborn": self.pelt.cat_sprites["newborn"],
                 "sprite_kitten": self.pelt.cat_sprites["kitten"],
                 "sprite_adolescent": self.pelt.cat_sprites["adolescent"],
                 "sprite_adult": self.pelt.cat_sprites["adult"],

@@ -55,8 +55,8 @@ class Sprites:
                    spritesheet,
                    pos,
                    name,
-                   sprites_x=3,
-                   sprites_y=7,
+                   sprites_x=9,
+                   sprites_y=8,
                    no_index=False):  # pos = ex. (2, 3), no single pixels
 
         """
@@ -111,10 +111,10 @@ class Sprites:
         # if anyone changes lineart for whatever reason update this
         if isinstance(self.size, int):
             pass
-        elif width / 3 == height / 7:
-            self.size = width / 3
+        elif width / 9 == height / 8:
+            self.size = width / 9
         else:
-            self.size = 50  # default, what base clangen uses
+            self.size = 200  # default, what base clangen uses
             print(f"lineart.png is not 3x7, falling back to {self.size}")
             print(f"if you are a modder, please update scripts/cat/sprites.py and "
                   f"do a search for 'if width / 3 == height / 7:'")
@@ -127,9 +127,9 @@ class Sprites:
             'scars', 'missingscars',
             'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars',
-            'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
+            'singlecolours', 'speckledcolours', 'tabbycolours', 'tytocolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
-            'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours',
+            'sokokecolours', 'agouticolours', 'pulsatrixcolours', 'maskedcolours',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
@@ -156,9 +156,12 @@ class Sprites:
 
         # Define eye colors
         eye_colors = [
-            ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD',
-             'HEATHERBLUE', 'SUNLITICE'],
-            ['COPPER', 'SAGE', 'COBALT', 'PALEBLUE', 'BRONZE', 'SILVER', 'PALEYELLOW', 'GOLD', 'GREENYELLOW']
+            ['BLACK', 'DARK', 'MAHOGANY', 'FATHOMLESS'],
+            ['SPARKLING', 'HEADLIGHTS', 'GREY', 'HAZEL'],
+            ['AMBER', 'YELLOW', 'SUNLITICE', 'COPPER'],
+            ['SAGE', 'BRONZE', 'SILVER', 'PALEYELLOW'],
+            ['GOLD', 'GREENYELLOW', 'RED', 'FIERY'],
+            ['HAGGISH']
         ]
 
         for row, colors in enumerate(eye_colors):
@@ -168,25 +171,9 @@ class Sprites:
 
         # Define white patches
         white_patches = [
-            ['FULLWHITE', 'ANY', 'TUXEDO', 'LITTLE', 'COLOURPOINT', 'VAN', 'ANYTWO', 'MOON', 'PHANTOM', 'POWDER',
-             'BLEACHED', 'SAVANNAH', 'FADESPOTS', 'PEBBLESHINE'],
-            ['EXTRA', 'ONEEAR', 'BROKEN', 'LIGHTTUXEDO', 'BUZZARDFANG', 'RAGDOLL', 'LIGHTSONG', 'VITILIGO', 'BLACKSTAR',
-             'PIEBALD', 'CURVED', 'PETAL', 'SHIBAINU', 'OWL'],
-            ['TIP', 'FANCY', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO', 'GOATEE', 'VITILIGOTWO', 'PAWS', 'MITAINE',
-             'BROKENBLAZE', 'SCOURGE', 'DIVA', 'BEARD'],
-            ['TAIL', 'BLAZE', 'PRINCE', 'BIB', 'VEE', 'UNDERS', 'HONEY', 'FAROFA', 'DAMIEN', 'MISTER', 'BELLY',
-             'TAILTIP', 'TOES', 'TOPCOVER'],
-            ['APRON', 'CAPSADDLE', 'MASKMANTLE', 'SQUEAKS', 'STAR', 'TOESTAIL', 'RAVENPAW', 'PANTS', 'REVERSEPANTS',
-             'SKUNK', 'KARPATI', 'HALFWHITE', 'APPALOOSA', 'DAPPLEPAW'],
-            ['HEART', 'LILTWO', 'GLASS', 'MOORISH', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT', 'MAO', 'LUNA', 'CHESTSPECK',
-             'WINGS', 'PAINTED', 'HEARTTWO', 'WOODPECKER'],
-            ['BOOTS', 'MISS', 'COW', 'COWTWO', 'BUB', 'BOWTIE', 'MUSTACHE', 'REVERSEHEART', 'SPARROW', 'VEST',
-             'LOVEBUG', 'TRIXIE', 'SAMMY', 'SPARKLE'],
-            ['RIGHTEAR', 'LEFTEAR', 'ESTRELLA', 'SHOOTINGSTAR', 'EYESPOT', 'REVERSEEYE', 'FADEBELLY', 'FRONT',
-             'BLOSSOMSTEP', 'PEBBLE', 'TAILTWO', 'BUDDY', 'BACKSPOT', 'EYEBAGS'],
-            ['BULLSEYE', 'FINN', 'DIGIT', 'KROPKA', 'FCTWO', 'FCONE', 'MIA', 'SCAR', 'BUSTER', 'SMOKEY', 'HAWKBLAZE',
-             'CAKE', 'ROSINA', 'PRINCESS'],
-            ['LOCKET', 'BLAZEMASK', 'TEARS', 'DOUGIE']
+            ['EYEBAGS', 'REVERSEEYE'],
+            ['FULLWHITE', 'RIGHTHORN'],
+            ['LUNA', 'LEFTHORN', 'EYE']
         ]
 
         for row, patches in enumerate(white_patches):
@@ -195,16 +182,17 @@ class Sprites:
 
         # Define colors and categories
         color_categories = [
-            ['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK'],
-            ['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA'],
-            ['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']
+            ['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY'], 
+            ['GHOST', 'BLACK', 'CREAM', 'PALEGINGER', 'GOLDEN'],
+            ['GINGER', 'DARKGINGER', 'SIENNA', 'LIGHTBROWN', 'LILAC'],
+            ['BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']
         ]
 
         color_types = [
             'singlecolours', 'tabbycolours', 'marbledcolours', 'rosettecolours',
-            'smokecolours', 'tickedcolours', 'speckledcolours', 'bengalcolours',
+            'smokecolours', 'tickedcolours', 'speckledcolours', 'tytocolours',
             'mackerelcolours', 'classiccolours', 'sokokecolours', 'agouticolours',
-            'singlestripecolours', 'maskedcolours'
+            'pulsatrixcolours', 'maskedcolours'
         ]
 
         for row, colors in enumerate(color_categories):
@@ -214,12 +202,10 @@ class Sprites:
 
         # tortiepatchesmasks
         tortiepatchesmasks = [
-            ['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE'],
-            ['MINIMALONE', 'MINIMALTWO', 'MINIMALTHREE', 'MINIMALFOUR', 'OREO', 'SWOOP', 'CHIMERA', 'CHEST', 'ARMTAIL',
-             'GRUMPYFACE'],
-            ['MOTTLED', 'SIDEMASK', 'EYEDOT', 'BANDANA', 'PACMAN', 'STREAMSTRIKE', 'SMUDGED', 'DAUB', 'EMBER', 'BRIE'],
-            ['ORIOLE', 'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'DAPPLENIGHT', 'BLANKET', 'BELOVED', 'BODY'],
-            ['SHILOH', 'FRECKLED', 'HEARTBEAT']
+            ['DAUB', 'HALF'],
+            ['UNDERWINGS', 'SMUDGED'],
+            ['BASE', 'PETE'],
+            ['EMBER', 'WINGTAIL']
         ]
 
         for row, masks in enumerate(tortiepatchesmasks):
@@ -228,9 +214,8 @@ class Sprites:
 
         # Define skin colors 
         skin_colors = [
-            ['BLACK', 'RED', 'PINK', 'DARKBROWN', 'BROWN', 'LIGHTBROWN'],
-            ['DARK', 'DARKGREY', 'GREY', 'DARKSALMON', 'SALMON', 'PEACH'],
-            ['DARKMARBLED', 'MARBLED', 'LIGHTMARBLED', 'DARKBLUE', 'BLUE', 'LIGHTBLUE']
+            ['NONE', 'WETNWILD'],
+            ['MAYBELLINE', 'ONFLEEK']
         ]
 
         for row, colors in enumerate(skin_colors):
