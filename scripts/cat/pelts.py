@@ -11,7 +11,7 @@ class Pelt:
         "SingleColour": 'single',
         'TwoColour': 'single',
         'Tabby': 'tabby',
-        'Marbled': 'marbled',
+        'Boobook': 'boobook',
         'Rosette': 'rosette',
         'Smoke': 'smoke',
         'Ticked': 'ticked',
@@ -45,7 +45,7 @@ class Pelt:
     ]
 
     tortiepatterns = ['DAUB', 'HALF', 'UNDERWINGS', 'SMUDGED', 'BASE', 'PETE', 'EMBER', 'WINGTAIL']
-    tortiebases = ['single', 'tabby', 'tyto', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
+    tortiebases = ['single', 'tabby', 'tyto', 'boobook', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
                    'classic', 'sokoke', 'agouti', 'pulsatrix', 'masked']
 
     pelt_length = ["small", "smallhorned", "medium", "mediumhorned", "large", "largehorned"]
@@ -94,7 +94,7 @@ class Pelt:
     tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti"]
     spotted = ["Speckled", "Rosette"]
     plain = ["SingleColour", "TwoColour", "Smoke", "Pulsatrix"]
-    exotic = ["Tyto", "Marbled", "Masked"]
+    exotic = ["Tyto", "Boobook", "Masked"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [tabbies, spotted, plain, exotic, torties]
 
@@ -996,7 +996,7 @@ class Pelt:
             "Tabby": "c_n tabby",
             "Speckled": "speckled c_n",
             "Tyto": "moon-faced c_n",
-            "Marbled": "c_n tabby",
+            "Boobook": "dark-faced c_n",
             "Ticked": "c_n ticked",
             "Smoke": "c_n smoke",
             "Mackerel": "c_n tabby",
