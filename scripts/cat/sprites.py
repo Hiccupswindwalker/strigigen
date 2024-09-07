@@ -171,9 +171,10 @@ class Sprites:
 
         # Define white patches
         white_patches = [
-            ['EYEBAGS', 'REVERSEEYE'],
-            ['FULLWHITE', 'RIGHTHORN'],
-            ['LUNA', 'LEFTHORN', 'EYE']
+            ['ELDERBIRD', 'SPARKLE', 'TEARS', 'BACKSPOT'],
+            ['ESTRELLA', 'PHANTOM', 'BARN', 'SERAPHIM'],
+            ['RIGHTHORN', 'EYESPOT', 'REVERSEEYE', 'SHOOTINGSTAR'],
+            ['FULLWHITE', 'LUNA', 'EYEBAGS', 'LEFTHORN']
         ]
 
         for row, patches in enumerate(white_patches):
