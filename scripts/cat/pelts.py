@@ -114,12 +114,12 @@ class Pelt:
         'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 'PALEYELLOW', 'GOLD', 'HEATHERBLUE', 'COPPER', 'SAGE', 'COBALT',
         'SUNLITICE', 'GREENYELLOW', 'BRONZE', 'SILVER'
     ]
-    little_white = ['EYEBAGS', 'LUNA', 'REVERSEEYE', 'LEFTHORN', 'RIGHTHORN']
-    mid_white = ['EYEBAGS']
-    high_white = ['LUNA']
-    mostly_white = ['FULLWHITE', 'EYE']
-    point_markings = ['COLOURPOINT']
-    vit = ['VITILIGO']
+    little_white = ['EYEBAGS', 'LUNA', 'REVERSEEYE', 'LEFTHORN', 'RIGHTHORN', 'SPARKLE', 'TEARS', 'BACKSPOT', 'ESTRELLA']
+    mid_white = ['SERAPHIM']
+    high_white = ['SHOOTINGSTAR']
+    mostly_white = ['FULLWHITE', 'EYESPOT', 'ELDERBIRD']
+    point_markings = ['BARN']
+    vit = ['PHANTOM']
     white_sprites = [
         little_white, mid_white, high_white, mostly_white, point_markings, vit, 'FULLWHITE']
 
