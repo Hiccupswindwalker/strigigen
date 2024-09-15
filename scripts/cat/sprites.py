@@ -114,7 +114,7 @@ class Sprites:
         elif width / 3 == height / 7:
             self.size = width / 3
         else:
-            self.size = 50  # default, what base clangen uses
+            self.size = 200  # default, what base clangen uses
             print(f"lineart.png is not 3x7, falling back to {self.size}")
             print(f"if you are a modder, please update scripts/cat/sprites.py and "
                   f"do a search for 'if width / 3 == height / 7:'")
