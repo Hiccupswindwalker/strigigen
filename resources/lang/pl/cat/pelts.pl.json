@@ -85,6 +85,38 @@
             "one": "brown",
             "many": "rusted brown"
         },
+        "SOUNDLESSDAWN": {
+            "one": "soundless",
+            "many": "soundless dawned"
+        },
+        "GUIDEOFNORETURN": {
+            "one": "ferryless",
+            "many": "unreturning ferry"
+        },
+        "CRIMSONRHAPSODY": {
+            "one": "crimson",
+            "many": "rhapsodic crimson"
+        },
+        "WHEREWANXIANGWEAVESLIFE": {
+            "one": "wanxiang",
+            "many": "wanxiang weaving"
+        },
+        "STARDUSTFLARE": {
+            "one": "stardust",
+            "many": "stardust flare"
+        },
+        "FOREVERBOND": {
+            "one": "forever",
+            "many": "forever bonded"
+        },
+        "TIDEOFTEARS": {
+            "one": "tearful",
+            "many": "tearful tide"
+        },
+        "BEHINDPRAYERS": {
+            "one": "praying",
+            "many": "behind prayers"
+        },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
         "TwoColour": "two color",
