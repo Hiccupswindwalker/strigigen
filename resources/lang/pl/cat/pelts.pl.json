@@ -117,6 +117,10 @@
             "one": "praying",
             "many": "behind prayers"
         },
+        "ECHOEDDREAMS": {
+            "one": "echoed",
+            "many": "echoed dream"
+        },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
         "TwoColour": "two color",
