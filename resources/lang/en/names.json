@@ -279,16 +279,19 @@
     "Silk", "Spider", "Dark", "Light", "Swirl", "Stream", "Crimson", "Spirit", "Wandering", "Moon", "Lotus", "Ghost", "Dream", "Fleet", "Fleeting", "Mirage", "Gentle", "Loud", "Pearl", "Scattered", "Sunken", "Pale"
     ],
 	"STARDUSTFLARE": [
-    ""
+    "Spark", "Dust", "Dusty", "Fire", "Fiery", "Flare", "Sparkly", "Blaze", "Dark", "Light", "Bright", "Night", "Blazing", "Dusk", "Dawn", "Mist", "Gold", "Golden", "Dazzling", "Bloom", "Blooming", "Lingering", "Slumbering", "Ember", "Embered", "Sparkling", "Echo", "Gleaming"
     ],
 	"FOREVERBOND": [
-    ""
+    "Chasing", "Running", "Dawn", "Dusk", "Morning", "Pale", "Crackle", "Shard", "Flower", "Flowering", "Petal", "Frost", "Weeping", "Frosty", "River", "Flow", "Flowing", "Ink", "Pond", "Bleeding"
     ],
 	"TIDEOFTEARS": [
-    ""
+    "Pool", "Wave", "Tide", "Weeping", "Tear", "Sea", "Snake", "Adder", "Python", "Whirl", "Pond", "Lake", "Cave", "Deep", "Abyss", "Lingering", "Quiet", "Silent", "Scale", "Snow", "Song", "Water", "Cold", "Jade", "Glow", "Serpent", "Dream", "Crystal"
     ],
 	"BEHINDPRAYERS": [
-    ""
+    "Moon", "Sun", "Red", "Russet", "Ruby", "Stone", "Gold", "Golden", "Silver", "Moss", "Mossy", "Dawn", "Leap", "Night", "Song", "Light", "Pure", "Hope", "Fading", "Faded", "Fade"
+    ],
+	"ECHOEDDREAMS": [
+    "Echo", "Echoed", "Song", "Tall", "Big", "Dream", "Rose", "Stream", "Flow", "Flowing", "Rising", "Faded", "Dancing", "Bird", "Dove", "Sunny", "Feather", "Leaf", "Lost"
     ],
     "BLACK": [
     "Black", "Black", "Black", "Shade", "Shaded", "Crow", "Raven", "Ebony", "Dark", "Grackle", "Bat", "Flint", "Storm", "Skunk",
@@ -362,6 +365,33 @@
     ],
     "RUST":[
     "burn", "blaze", "flame", "flare", "ember", "fox", "vixen", "bat"
+    ],
+	"SOUNDLESSDAWN": [
+    "song", "dawn", "whisper", "sun", "string", "light", "weave", "morning", "echo", "blossom", "petal", "flower", "spine", "claw", "bloom" 
+    ],
+	"GUIDEOFNORETURN": [
+    "chaser", "whisper", "moon", "stone", "pool", "pond", "stream", "shimmer", "silver", "frost", "snow", "river", "echo", "light", "peak", "fade", "shard", "strike"
+    ],
+	"CRIMSONRHAPSODY": [
+    "leaf", "bleed", "dream", "song", "bird", "partridge", "leap", "bramble", "fade", "twist", "runner", "sprout", "fire", "blossom", "night", "fall", "wind", "wren"
+    ],
+	"WHEREWANXIANGWEAVESLIFE": [
+    "silk", "spider", "light", "swirl", "stream", "spirit", "wander", "moon", "lotus", "ghost", "dream", "fleet", "pearl"
+    ],
+	"STARDUSTFLARE": [
+    "spark", "dust", "fire", "flare", "blaze", "light", "bright", "night", "dusk", "dawn", "mist", "bloom", "ember", "echo", "gleam"
+    ],
+	"FOREVERBOND": [
+    "chaser", "runner", "dawn", "dusk", "morning", "crackle", "shard", "flower", "petal", "frost", "river", "flow", "pond"
+    ],
+	"TIDEOFTEARS": [
+    "pool", "wave", "tide", "tear", "sea", "snake", "adder", "python", "whirl", "pond", "lake", "cve", "scale", "snow", "sng", "wter", "jade", "glow", "serpent", "dream"
+    ],
+	"BEHINDPRAYERS": [
+    "moon", "sun", "ruby", "stone", "moss", "dawn", "leap", "night", "song", "light", "fade"
+    ],
+	"ECHOEDDREAMS": [
+    "echo", "song", "dream", "rose", "stream", "flow", "fade", "dance", "bird", "dove", "sun", "feather", "flight", "leaf", "lost"
     ],
     "BLACK": [
 	"shadow", "shade", "dusk", "coal", "ink", "bat", "cinder", "ghost", "night", "raven", "crow", "burn", "badger", "raccoon"
