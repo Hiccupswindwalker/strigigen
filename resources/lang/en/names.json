@@ -266,6 +266,30 @@
     "Owl", "Otter", "Log", "Hickory", "Branch", "Robin", "Umber", "Chanterelle", "Dusk", "Auburn", "Burnet", "Spider", "Bark", "Sable",
     "Hawk", "Chestnut", "Fir", "Starling", "Peat", "Fox", "Bat"
     ],
+	"SOUNDLESSDAWN": [
+    "Song", "Dawn", "Bone", "Quiet", "Whisper", "Whispering", "Sun", "Weeping", "String", "Gold", "Golden", "Sunny", "Light", "Tawny", "Woven", "Morning", "Echo", "Forest", "Blossom", "Petal", "Flower", "Hope", "Dead", "Gentle", "Spine", "Stem", "Bloom", "Blooming", "Echoing", "Blossoming", "Flowering", "Warm"
+    ],
+	"GUIDEOFNORETURN": [
+    "Dead", "Chasing", "Dark", "Ice", "Icy", "Quiet", "Whisper", "Whispering", "Moon", "Crystal", "Pool", "Pond", "Stream", "Twilight", "Frost", "Snow", "Snowy", "Rime", "Hoarfrost", "River", "Evening", "Echo", "Light", "Mountain", "Peak", "Fading", "Sharp", "Shard", "Strike", "Cold"
+    ],
+	"CRIMSONRHAPSODY": [
+    "Red", "Crimson", "Russet", "Leaf", "Leafy", "Dream", "Song", "Bird", "Float", "Bramble", "Fading", "Twist", "Twisting", "Fade", "Gentle", "Running", "Sprout", "Sprouting", "Lost", "Fiery", "Fire", "Blossom", "Night", "Fallen", "Dim", "Dimming", "Windy"
+    ],
+	"WHEREWANXIANGWEAVESLIFE": [
+    "Silk", "Spider", "Dark", "Light", "Swirl", "Stream", "Crimson", "Spirit", "Wandering", "Moon", "Lotus", "Ghost", "Dream", "Fleet", "Fleeting", "Mirage", "Gentle", "Loud", "Pearl", "Scattered", "Sunken", "Pale"
+    ],
+	"STARDUSTFLARE": [
+    ""
+    ],
+	"FOREVERBOND": [
+    ""
+    ],
+	"TIDEOFTEARS": [
+    ""
+    ],
+	"BEHINDPRAYERS": [
+    ""
+    ],
     "BLACK": [
     "Black", "Black", "Black", "Shade", "Shaded", "Crow", "Raven", "Ebony", "Dark", "Grackle", "Bat", "Flint", "Storm", "Skunk",
     "Night", "Shadow", "Scorch", "Midnight", "Pepper", "Pitch", "Bat", "Burnt", "Coal", "Ink", "Inky", "Murk", "Rat", "Magpie",
