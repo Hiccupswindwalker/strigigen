@@ -2,6 +2,7 @@
   "colour_groups":
   {
     "WHITE": "white",
+    "CYRENE": "lightgrey",
     "PALEGREY": "lightgrey",
     "SILVER": "lightgrey",
     "ECHOEDDREAMS": "lightgrey",
@@ -9,6 +10,7 @@
     "GUIDEOFNORETURN": "darkgrey",
     "SOUNDLESSDAWN": "darkgrey",
     "DARKGREY": "darkgrey",
+    "XIAO": "ghost",
     "GHOST": "ghost",
     "BLACK": "black",
     "WHEREWANXIANGWEAVESLIFE": "black",
@@ -35,9 +37,9 @@
   "possible_tints": {
     "basic": ["pink", "gray", "red", "orange", "warmdilute", "patina", "tawny"],
     "white": ["yellow", "pinkdilute", "earthydilute", "gloaming", "quartz", "lilacdilute"],
-    "lightgrey": ["purple", "black", "dilute", "pinkdilute", "night", "gloaming", "quartz", "lilacdilute"],
+    "lightgrey": ["purple", "black", "dilute", "pinkdilute", "night", "gloaming", "quartz", "lilacdilute", "warmdilute"],
     "darkgrey": ["blue", "black", "dilute", "cooldilute", "pinkdilute", "earthydilute", "night", "gloaming", "quartz", "lilacdilute"],
-    "ghost": ["blue", "black", "dilute", "cooldilute", "night"],
+    "ghost": ["blue", "black", "dilute", "cooldilute", "night", "warmdilute"],
     "black": ["blue", "black", "dilute", "cooldilute", "pinkdilute", "earthydilute", "night", "gloaming", "quartz"],
     "cream": ["yellow", "purple", "dilute", "cooldilute", "earthydilute", "quartz", "lilacdilute"],
     "lightginger": ["yellow", "purple", "dilute", "cooldilute", "earthydilute", "quartz", "lilacdilute"],
