@@ -121,6 +121,14 @@
             "one": "echoed",
             "many": "echoed dream"
         },
+        "XIAO": {
+            "one": "alatus",
+            "many": "alatus nemeseos"
+        },
+        "CYRENE": {
+            "one": "rippling",
+            "many": "rippling past reverie"
+        },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
         "TwoColour": "two color",
