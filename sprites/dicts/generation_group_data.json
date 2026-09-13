@@ -2,9 +2,11 @@
     "pelts": {
         "colors": {
             "WHITE": "white",
+            "CYRENE": "white",
             "PALEGREY": "white",
             "SILVER": "white",
             "ECHOEDDREAMS": "white",
+            "XIAO": "black",
             "GREY": "black",
             "GUIDEOFNORETURN": "black",
             "SOUNDLESSDAWN": "black",
