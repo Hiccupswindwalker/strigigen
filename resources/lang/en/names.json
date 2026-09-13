@@ -293,6 +293,12 @@
 	"ECHOEDDREAMS": [
     "Echo", "Echoed", "Song", "Tall", "Big", "Dream", "Rose", "Stream", "Flow", "Flowing", "Rising", "Faded", "Dancing", "Bird", "Dove", "Sunny", "Feather", "Leaf", "Lost"
     ],
+	"XIAO": [
+    "Swift", "Running", "Chasing", "Song", "Bird", "Enduring", "Long", "Small", "Tiny", "Hawk", "Wind", "Windy", "Breeze", "Leap", "Pounce", "Claw", "Sharp", "Shard", "Shriek", "Quiet", "Gentle", "Silent", "Morning", "Dove", "Quick", "Kite", "Eagle", "Wing", "Feather", "Jade", "Dark", "Whirl", "Strike", "Blossom", "Flower", "Sweet", "Dream"
+    ],
+	"CYRENE": [
+    "Echo", "Song", "Dream", "Rose", "River", "Ripple", "Reverie", "Faith", "Sea", "Pool", "Shine", "Moon", "Sun", "Briar", "Flower", "Blossom", "Golden", "Gold", "Leaf", "River", "Bunny", "Hare", "Seed", "Bloom", "Blossoming", "Hope", "Flight", "Feather", "Wind", "Plume", "Heart", "Blazing"
+    ],
     "BLACK": [
     "Black", "Black", "Black", "Shade", "Shaded", "Crow", "Raven", "Ebony", "Dark", "Grackle", "Bat", "Flint", "Storm", "Skunk",
     "Night", "Shadow", "Scorch", "Midnight", "Pepper", "Pitch", "Bat", "Burnt", "Coal", "Ink", "Inky", "Murk", "Rat", "Magpie",
@@ -392,6 +398,12 @@
     ],
 	"ECHOEDDREAMS": [
     "echo", "song", "dream", "rose", "stream", "flow", "fade", "dance", "bird", "dove", "sun", "feather", "flight", "leaf", "lost"
+    ],
+	"XIAO": [
+    "swift", "runner", "dance", "chaser", "song", "bird", "tail", "hawk", "wind", "breeze", "leap", "pounce", "claw", "sharp", "shard", "shriek", "morning", "dove", "kite", "eagle", "wing", "feather", "jade", "whirl", "strike", "blossom", "flower", "sweet", "dream"
+    ],
+	"CYRENE": [
+    "echo", "song", "dream", "rose", "river", "ripple", "sea", "pool", "shine", "moon", "sun", "briar", "flower", "blossom", "leaf", "hare", "seed", "bloom", "hope", "flight", "feather", "plume", "heart", "blaze"
     ],
     "BLACK": [
 	"shadow", "shade", "dusk", "coal", "ink", "bat", "cinder", "ghost", "night", "raven", "crow", "burn", "badger", "raccoon"
