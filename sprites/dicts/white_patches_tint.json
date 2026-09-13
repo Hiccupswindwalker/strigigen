@@ -2,6 +2,7 @@
   "colour_groups":
   {
     "WHITE": "white",
+    "CYRENE": "gray",
     "PALEGREY": "gray",
     "SILVER": "gray",
     "ECHOEDDREAMS": "gray",
@@ -11,6 +12,7 @@
     "DARKGREY": "black",
     "GHOST": "black",
     "BLACK": "black",
+    "XIAO": "black",
     "WHEREWANXIANGWEAVESLIFE": "black",
     "TIDEOFTEARS": "black",
     "BLOSSOM": "ginger",
@@ -34,8 +36,8 @@
   },
   "possible_tints": {
     "basic": ["offwhite", "offwhite"],
-    "black": ["gray", "darkcream", "cream"],
-    "gray": ["gray", "darkcream", "cream"],
+    "black": ["gray", "darkcream", "cream", "pink"],
+    "gray": ["gray", "darkcream", "cream", "pink"],
     "ginger": ["darkcream", "cream", "pink"],
     "brown": ["darkcream", "cream"],
     "white": []
